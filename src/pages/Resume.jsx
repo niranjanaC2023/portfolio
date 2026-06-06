@@ -1,5 +1,5 @@
 export default function Resume() {
-  const resume = `${import.meta.env.BASE_URL}Niranjan_Charty_Java_Developer.pdf`;
+  const resume = `${import.meta.env.BASE_URL}Prasanta_Kumar_Charty_Resume.pdf`;
   return (
     <div style={{ textAlign: "center", padding: "60px" }}>
       <h2>My Resume</h2>
@@ -10,7 +10,7 @@ export default function Resume() {
           View Resume
         </a>
 
-        {/* <a href={`${import.meta.env.BASE_URL}Niranjan_Charty_Java_Developer.pdf`} download style={styles.btnOutline}>
+        {/* <a href={`${import.meta.env.BASE_URL}Prasanta_Kumar_Charty_Resume.pdf`} download style={styles.btnOutline}>
           Download Resume
         </a> */}
 

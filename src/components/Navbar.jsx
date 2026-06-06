@@ -7,6 +7,7 @@ export default function Navbar() {
 
       <div style={styles.links}>
         <Link to="/">Home</Link>
+        <Link to="/about">About</Link>   {/* 👈 ADD THIS */}
         <Link to="/skills">Skills</Link>
         <Link to="/projects">Projects</Link>
         <Link to="/education">Education</Link>

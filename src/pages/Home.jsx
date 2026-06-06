@@ -1,17 +1,18 @@
+import { Link } from "react-router-dom";
+
 export default function Home() {
-  const resume = `${import.meta.env.BASE_URL}Niranjan_Charty_Java_Developer.pdf`;
+  const resume = `${import.meta.env.BASE_URL}Prasanta_Kumar_Charty_Resume.pdf`;
+
   return (
     <div style={styles.hero}>
       <h1>Hi, I'm Prasanta Kumar Charty 👋</h1>
 
-      <h2 style={{ color: "#38bdf8" }}>
-        Java Full Developer (Fresher)
-      </h2>
+      <h2 style={{ color: "#38bdf8" }}>Java Developer (Fresher)</h2>
 
       <p style={styles.desc}>
-        Motivated and passionate developer with strong knowledge in 
-        <b> Java, Spring Boot, and React</b>. 
-        Interested in building scalable backend systems and modern web applications.
+        Motivated and passionate developer with strong knowledge in
+        <b> Java, Spring Boot, and React</b>. Interested in building scalable
+        backend systems and modern web applications.
       </p>
 
       {/* Skills */}
@@ -19,20 +20,28 @@ export default function Home() {
         Java | Spring Boot | React | MySQL | REST APIs
       </p>
 
-      {/* 🔗 Social Links */}
+      {/* Social Links */}
       <div style={styles.social}>
-        <a href="https://github.com/niranjanaC2023/portfolio" target="_blank">
+        <a
+          href="https://github.com/niranjanaC2023/portfolio"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           GitHub
         </a>
 
-        <a href="https://linkedin.com/in/your-linkedin-id" target="_blank">
+        <a
+          href="https://linkedin.com/in/your-linkedin-id"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           LinkedIn
         </a>
       </div>
 
       {/* Buttons */}
       <div style={{ marginTop: "20px" }}>
-        <a href={resume} target="_blank" style={styles.btn}>
+        <a href={resume} target="_blank" rel="noopener noreferrer" style={styles.btn}>
           View Resume
         </a>
 
@@ -40,9 +49,9 @@ export default function Home() {
           Download Resume
         </a>
 
-        {/* <a href="/resume" style={styles.btn}>View Resume</a> */}
-
-        <a href="/projects" style={styles.btnOutline}>View Projects</a>
+        <Link to="/projects" style={styles.btnOutline}>
+          View Projects
+        </Link>
       </div>
     </div>
   );
@@ -76,11 +85,16 @@ const styles = {
     margin: "10px",
     borderRadius: "5px",
     color: "black",
+    textDecoration: "none",
+    display: "inline-block",
   },
   btnOutline: {
     border: "1px solid #38bdf8",
     padding: "10px 20px",
     margin: "10px",
     borderRadius: "5px",
+    color: "#38bdf8",
+    textDecoration: "none",
+    display: "inline-block",
   },
 };

@@ -2,31 +2,37 @@ export default function Footer() {
   return (
     <footer style={styles.footer}>
       <div style={styles.container}>
-        
-        {/* Left Section */}
+
         <div>
-          <h3 style={styles.heading}>Niranjan</h3>
-          <p>Java Full Stack Developer</p>
+          <h3 style={styles.heading}>Prasanta Kumar Charty</h3>
+          <p>Java Developer</p>
           <p>Building scalable apps using Spring Boot & React</p>
         </div>
 
-        {/* Contact Section */}
         <div>
           <h3 style={styles.heading}>Contact</h3>
-          <p>Email: prasantakumarcharty123@gmail.com</p>
-          <p>Phone: +91 9776176933</p>
+
+          <p>
+            Email:{" "}
+            <a href="mailto:prasantakumarcharty123@gmail.com">
+              prasantakumarcharty123@gmail.com
+            </a>
+          </p>
+
+          <p>
+            Phone:{" "}
+            <a href="tel:+919776176933">+91 9776176933</a>
+          </p>
         </div>
 
-        {/* Address Section */}
         <div>
           <h3 style={styles.heading}>Address</h3>
-          <p>At: Karapada, P.O: Karapada, Dist: Ganjam, Pin: 761026</p>
-          <p>Odisha, India</p>
+          <p>Karapada, Ganjam, Odisha</p>
+          <p>India - 761026</p>
         </div>
 
       </div>
 
-      {/* Bottom Line */}
       <div style={styles.bottom}>
         © 2026 Prasanta | All Rights Reserved
       </div>

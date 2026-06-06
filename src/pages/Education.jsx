@@ -1,38 +1,27 @@
-// export default function Education() {
-//   return (
-//     <div style={{ padding: "40px" }}>
-//       <h2>Education</h2>
-
-//       <ul>
-//         <li>B.Tech CSE - 2021 - 72%</li>
-//         <li>Intermediate - PCMB - 80%</li>
-//         <li>SSC - 70%</li>
-//       </ul>
-//     </div>
-//   );
-// }
-
 export default function Education() {
   return (
     <div style={styles.container}>
       <h2>Education</h2>
 
       <div style={styles.card}>
-        <h3>B.Tech (Mechanical Branch)</h3>
+        <h3>B.Tech in Mechanical Engineering</h3>
         <p>Gandhi Institute for Technology, Bhubaneswar, Odisha</p>
-        <p>2021 | 72%</p>
+        <p>JNTU | 2017 - 2021</p>
+        <p>Percentage: 72%</p>
       </div>
 
       <div style={styles.card}>
-        <h3>Intermediate (PCMB)</h3>
-        <p>Narayana College, Berhampur, Odisha</p>
-        <p>2017 | 85%</p>
+        <h3>Intermediate (MPC/PCMB)</h3>
+        <p>Narayana Junior College, Berhampur, Odisha</p>
+        <p>Board of Intermediate Education | 2015 - 2017</p>
+        <p>Percentage: 85%</p>
       </div>
 
       <div style={styles.card}>
-        <h3>SSC (10th)</h3>
+        <h3>SSC (10th Standard)</h3>
         <p>Narayana School, Berhampur, Odisha</p>
-        <p>2015 | 70%</p>
+        <p>Board of Secondary Education | 2015</p>
+        <p>Percentage: 70%</p>
       </div>
     </div>
   );
